@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 const App = () => {
-  return <SafeAreaView style={backgroundStyle}></SafeAreaView>;
+  return <SafeAreaView style={{flex: 1}}></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({});
